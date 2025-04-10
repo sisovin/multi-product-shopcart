@@ -1,0 +1,31 @@
+{
+  "name": "multi-product-shopcart",
+  "version": "1.0.0",
+  "description": "A multi-product shopping cart application",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "prisma": "^2.30.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.8",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/bcryptjs": "^2.4.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
