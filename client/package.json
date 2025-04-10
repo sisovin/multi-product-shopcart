@@ -1,0 +1,25 @@
+{
+  "name": "multi-product-shopcart-client",
+  "version": "1.0.0",
+  "description": "Client-side application for the multi-product shopping cart",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "next": "10.0.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "7.20.0",
+    "eslint-config-next": "10.0.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
